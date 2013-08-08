@@ -2,7 +2,7 @@
 of training neural networks by working backwards from the output of the training data to the input. In this 
 implementation, a sigmoid function is used as the transfer function to compute outputs of successive layers.
 For testing, a simple XOR truth table is used train the network to behave as the logic gate. Generally, I 
-found acceptable values emerge after around 2000 iterations or so. Ideally, different functions would be 
+found acceptable values emerge after around 10000 iterations or so. Ideally, different functions would be 
 used to model consecutive layers of the neural network.'''
 
 import numpy
